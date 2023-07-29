@@ -1,1 +1,1 @@
-flexbo
+flexbox
