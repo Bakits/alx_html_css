@@ -180,15 +180,15 @@
   
   /* Grid
       ============================= */
-  .row {
-    display: flex;
-  }
   ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
-    /* display: flex; */
+    display: flex;
   }
+  /* row {
+    display: flex;
+  } */
   
   /* .row::after {
     content: '';
@@ -378,6 +378,11 @@
     padding: 10rem 40rem 2rem 0;
   }
   
+  /* Section Latest news ============================= */
+.section-latest-news .row {
+  flex-direction: row-reverse;
+}
+
   /*** 4. CARD ***/
   
   /* Card (all styles)
